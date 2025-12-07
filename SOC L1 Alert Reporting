@@ -5,7 +5,7 @@ Goal: Learn how to properly report, escalate, and communicate about high-risk SO
 1) Introduction — description
 Description: This section provides a brief introduction ot the concepts of alert funneling, reporting, escalation, and the fundamentals of SOC Communications. 
 
-2)Alert Funneling — description
+2)Alert Funneling — 
 Description: As a continuation from Alert Triaging, Alert Funneling continues the process of event management in a SOC. This section stresses the importance of proper documentation and escalation of True Positives. 
 Q: What is the process of passing suspicious alerts to an L2 analyst for review? A: Alert Escalation
 
