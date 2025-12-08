@@ -15,7 +15,6 @@ This SOC simulation will be using TryHackMe's SOC Simulator to introducer users 
 The scenarios are accessed trhough a menu screen with alerts that need addressing, there will be one alert pending at the beginning of the scenario. 
 In keeping with best practices, I will be addressing these issues in this SIEM by level of Severity, rather than their ID # or time of recipience. 
 <img width="1536" height="955" alt="image" src="https://github.com/user-attachments/assets/09d9322b-3555-4bf6-9d8a-56d5bb4c6436" />
-<img width="1536" height="542" alt="image" src="https://github.com/user-attachments/assets/0f2b289f-1b43-4c82-b779-2980ced37dcd" />
 
 
 ---
