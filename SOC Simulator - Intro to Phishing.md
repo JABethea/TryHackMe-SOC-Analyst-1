@@ -26,8 +26,6 @@ I will be addressing these alerts by #, although in a real life scenario these a
 The alert was triggered by an inbound email containing 1+ external link, possibly with suspicious characteristics. The firewall and proxy logs are needing to be checked to determine if any endpoints have been attempted to access the URLs in the email and whether or not the connections were allowed or blocked. 
 <img width="1536" height="638" alt="image" src="https://github.com/user-attachments/assets/8b4a75b7-01dc-4e76-9ee6-f2c9c4b4a1c1" />
 
-<img width="1536" height="542" alt="image" src="https://github.com/user-attachments/assets/154be570-9400-438f-85d1-b170578c772c" />
-
 **datasource**: email
 **timestamp**: 
 **subject**: Action Required: Finalize Your Onboarding Profile
