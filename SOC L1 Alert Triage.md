@@ -64,6 +64,7 @@ Hands on Scenario through the THM SIEM tool to investigate incidents and utilize
 **Q:**Which flag did you receive after you correctly triaged the third-priority alert?
 **A:** THM{should_we_allow_github_for_devs?}
 
+<img width="2227" height="1912" alt="image" src="https://github.com/user-attachments/assets/fd9d7f5a-d5cf-476b-af5e-d33933dd6fb7" />
 
 
 ---
