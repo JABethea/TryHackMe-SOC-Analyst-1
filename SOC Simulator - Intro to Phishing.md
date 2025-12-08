@@ -24,16 +24,26 @@ In keeping with best practices, I will be addressing these issues in this SIEM b
 **Description:**
 This alert was triggered when a user attempted to access an external URL that is listed in the organization’s blacklist or threat intelligence feeds. The firewall or proxy successfully blocked the outbound request, preventing the connection. Note: The blacklist only covers known threats. It does not guarantee protection against new or unknown malicious domains.
 
-**Timestamp**: 11/20/2025 20:04:23.489
+**Timestamp**: 12/8/25 5:08:34.650 PM
+
 **Action**: blocked
+
 **Source IP**: 10.20.2.17
+
 **Source Port**: 34257
+
 **Destination IP**: 67.199.248.11
+
 **Destination Port**: 80
+
 **URL**: http://bit.ly/3sHkX3da12340
+
 **Application**: web-browsing
+
 **Protocol**: TCP
+
 **Rule**: Blocked Websites
+<img width="1641" height="591" alt="image" src="https://github.com/user-attachments/assets/214e8fa2-46b2-4b0a-9f39-1a809c8d3231" />
 
 
 ---
@@ -46,10 +56,15 @@ The alert was triggered by an inbound email containing 1+ external link, possibl
 
 
 **datasource**: email
+
 **timestamp**: 12/8/25 4:58:03:032 PM
+
 **subject**: Action Required: Finalize Your Onboarding Profile
+
 **sender**: onboarding@hrconnex.thm
+
 **recipient**: j.garcia@thetrydaily.thm
+
 **attachment**: none
 
 **content**: Hi Ms. Garcia,\n\nWelcome to TheTryDaily!\n\nAs part of your onboarding, please complete your final profile setup so we can configure your access.\n\nKindly click the link below:\n\n<a href=”https://hrconnex.thm/onboarding/15400654060/j.garcia”>Set Up My Profile</a>.\n\nIf you have questions, please reach out to the HR Onboarding Team.
@@ -72,10 +87,15 @@ This indicates that this issue was because there is a 3rd party HR partner invol
 This alert was triggered by an inbound email contains one or more external links due to potentially suspicious characteristics. As part of the investigation, check firewall or proxy logs to determine whether any endpoints have attempted to access the URLs in the email and whether those connections were allowed or blocked.
 
 **datasource**: email
-**timestamp**: 11/20/2025 20:03:09.489
+
+**timestamp**: 12/8/25 4:58:03:032 PM
+
 **subject**: Your Amazon Package Couldn’t Be Delivered – Action Required
+
 **sender**: urgents@amazon.biz
+
 **recipient**: h.harris@thetrydaily.thm
+
 **attachment**: none
 
 content:
@@ -102,7 +122,7 @@ These indicators lead me to believe this incident is a True Positive. This incid
 This alert was triggered by an inbound email contains one or more external links due to potentially suspicious characteristics. As part of the investigation, I checked the firewall or proxy logs to determine whether any endpoints have attempted to access the URLs in the email and whether those connections were allowed or blocked.
 
 **datasource**: email
-**timestamp**: 11/20/2025 20:05:27.489
+**timestamp**: 12/8/25 4:58:03:032 PM
 **subject**: Unusual Sign-In Activity on Your Microsoft Account
 **sender**: no-reply@m1crosoftsupport.co
 **recipient**: c.allen@thetrydaily.thm
