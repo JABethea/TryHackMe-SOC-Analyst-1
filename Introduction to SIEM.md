@@ -108,16 +108,17 @@ In the static lab attached, a sample dashboard and events are displayed. When a 
 1. After clicking on the Start Suspicious Activity button, which process caused the alert?
    * View the static site. Start by pressing the Start Suspicious Activity button.
 <img width="804" height="797" alt="image" src="https://github.com/user-attachments/assets/138a94cb-1ade-4415-8a1c-93ef78c05726" />
-   * A process will start blinking in red:
+
+    * A process will start blinking in red:
    * The process is called cudominer.exe.
 
-2. After clicking on the process, you will enter an event log and need to determine which user was responsible for executing the cudominer process. On the 4th row is the cudominer process, in the UserName column, it will see that the user who executed the process is Chris.
+3. After clicking on the process, you will enter an event log and need to determine which user was responsible for executing the cudominer process. On the 4th row is the cudominer process, in the UserName column, it will see that the user who executed the process is Chris.
 <img width="688" height="309" alt="image" src="https://github.com/user-attachments/assets/b0ea7b94-0785-4e55-9704-69e76e07a052" />
    * This user's HostName is HR_02.
    * In the event row, the Rule that triggered the event can be seen.
 <img width="953" height="258" alt="image" src="https://github.com/user-attachments/assets/40b40195-39a8-4956-a5ce-d876395b1803" />
    * You can see that the rule checks is the process name includes miner or crypt. In this case, with the process called cudominer, the term that matched the rule is miner.
-3. Go to Analysis / Action button and navigate to the action window. Then confirm if the rule is a true positive or a false positive. The process is most likely some kind of crypto mining process, so I will mark it to be a true posistive. 
+4. Go to Analysis / Action button and navigate to the action window. Then confirm if the rule is a true positive or a false positive. The process is most likely some kind of crypto mining process, so I will mark it to be a true posistive. 
 <img width="981" height="301" alt="image" src="https://github.com/user-attachments/assets/a5cf9a0b-f0bf-49a7-b38f-614d786f1db9" />
 
 
