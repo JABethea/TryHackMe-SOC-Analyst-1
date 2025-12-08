@@ -109,7 +109,6 @@ In the static lab attached, a sample dashboard and events are displayed. When a 
    * View the static site. Start by pressing the Start Suspicious Activity button.
 <img width="804" height="797" alt="image" src="https://github.com/user-attachments/assets/138a94cb-1ade-4415-8a1c-93ef78c05726" />
    * A process will start blinking in red:
-<img width="782" height="710" alt="image" src="https://github.com/user-attachments/assets/f6b0891e-d8b6-49fd-b044-8bcd8b1894cd" />
    * The process is called cudominer.exe.
 
 2. After clicking on the process, you will enter an event log and need to determine which user was responsible for executing the cudominer process. On the 4th row is the cudominer process, in the UserName column, it will see that the user who executed the process is Chris.
