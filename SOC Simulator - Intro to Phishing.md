@@ -42,10 +42,11 @@ This alert was triggered when a user attempted to access an external URL that is
 
 **Description:**
 The alert was triggered by an inbound email containing 1+ external link, possibly with suspicious characteristics. The firewall and proxy logs are needing to be checked to determine if any endpoints have been attempted to access the URLs in the email and whether or not the connections were allowed or blocked. 
-<img width="1536" height="638" alt="image" src="https://github.com/user-attachments/assets/8b4a75b7-01dc-4e76-9ee6-f2c9c4b4a1c1" />
+<img width="3333" height="580" alt="image" src="https://github.com/user-attachments/assets/026e3e5d-64ff-48e4-a2a9-0c3f5375ccd3" />
+
 
 **datasource**: email
-**timestamp**: 
+**timestamp**: 12/8/25 4:58:03:032 PM
 **subject**: Action Required: Finalize Your Onboarding Profile
 **sender**: onboarding@hrconnex.thm
 **recipient**: j.garcia@thetrydaily.thm
